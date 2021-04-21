@@ -33,7 +33,7 @@ body{
 	margin: 0% 30%;
 }
 .logo{
-	animation: rotate1 6s infinite;
+	animation: rotate1 6s linear 0s infinite;
 	animation-delay:0s;
 	position: absolute;
 	float: right;	
