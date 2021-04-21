@@ -1,0 +1,61 @@
+div{
+	margin: auto;
+}
+@keyframes red {
+    0% {background: red;}
+    30% {background: red;}
+    50%{background:  grey;}
+	100%{background:  grey;}
+  }
+  @keyframes yellow{
+  0% {background:  grey;}
+    30% {background:  grey;}
+   50%{background: yellow;}
+   70%{background:  grey;}
+   100%{background:  grey;}
+  }
+  @keyframes green {
+  0% {background:  grey;}
+    66% {background:  grey;}
+   67%{background: green;} 
+   77%{background: green;}
+   80%{background:  grey;}
+   82%{background: green;}
+   87%{background:  grey;}
+   90%{background: green;}
+   100%{background:  grey;}
+  }
+
+.body{
+	background-color: black;
+	padding: 2%;
+	border-radius: 4%;
+	width: 12%;
+}
+.green{
+	animation: green 10s infinite;
+	border-radius: 50%;
+	padding:10%;
+	color: black;
+	font-size: 700%;
+	text-align: center;
+}
+.yellow{
+	animation: yellow 10s  infinite;
+	border-radius: 50%;
+	padding:10%;
+	color: black;
+	font-size: 700%;
+	text-align: center;
+	}
+.red{
+	animation: red 10s infinite;
+	border-radius: 50%;
+	padding:10%;
+	text-align: center;
+	color: black;
+	font-size: 700%;
+}
+span{
+	font-size:25px;
+}
