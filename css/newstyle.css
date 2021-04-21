@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+	background-color: black;
+}
+@keyframes rotate1 {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+@keyframes albums { 
+    0%{background: url(https://i.pinimg.com/originals/f8/25/3a/f8253ac878a0ff1b1c21f22002ca3714.jpg);background-size: 100%;}
+	20%{background: url(https://i.pinimg.com/originals/f8/25/3a/f8253ac878a0ff1b1c21f22002ca3714.jpg);background-size: 100%;}
+    40%{background: url(https://www.metalkingdom.net/album/cover/d8/62377_motionless_in_white_infamous.jpg); background-size: 100%;}
+    60%{background: url(https://www.metalkingdom.net/album/cover/d11/77139_motionless_in_white_reincarnate.jpg);background-size: 100%;}
+	80%{background: url(https://www.metalkingdom.net/album/cover/2017/03/5/108829-motionless-in-white-graveyard-shift.jpg);background-size: 100%;}
+	100%{background: url(https://i.pinimg.com/originals/cb/af/80/cbaf808230537dbad84d0e88aeb74459.jpg);background-size: 100%;}
+
+}
+@keyframes posit { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+.top{
+	background: linear-gradient(to left, rgba(255, 0, 0,0.5), rgba(128, 0, 128,0.5), rgba(0, 0, 255, 0.5));
+    animation: posit 12s ease infinite;
+	margin:1%;
+	background-size: 200%;
+}	
+.band{
+	background: url(https://i.pinimg.com/originals/e7/71/88/e77188cd513dfad610f00292b958b45b.jpg);
+	background-size:100%;
+	padding:6%;
+	margin: 0% 30%;
+}
+.logo{
+	animation: rotate1 6s infinite;
+	animation-delay:0s;
+	position: absolute;
+	float: right;	
+	margin-left: 1%;	 
+}
+.text{
+	background: linear-gradient(to left, rgba(255, 0, 0,0.5), rgba(128, 0, 128,0.5), rgba(0, 0, 255, 0.5));
+    animation: posit 8s ease infinite;
+	font-size: 170%;
+	background-size: 200%;
+	padding: 1%;
+	margin-top: 1%;
+	margin-left: 23%;
+	color:white;
+	float: left;
+	background-size:200%;
+	font-family:Kaushan Script;
+	margin-right: 1%;
+}
+.albums{
+	animation: albums 20s ease infinite;
+	box-shadow: 0 0 15px rgb(0,0,255);
+	float: top;
+	margin-top:-20%;
+	margin-right: 1.5%;
+	margin-left: 78%;
+	padding: 10% 5%;
+}
+.discography{
+	text-align: justify;
+	color: white;
+	font-size: 170%;
+	text-shadow:0px 4px 15px blue;
+	float: top;
+	font-family:Kaushan Script;
+	margin-left: 52%;
+	margin-top: 16%;
+}
+button{
+	background-color: black;
+	color: white;
+	font-size: 150%;
+	font-family:Kaushan Script;
+	padding: 0% 1%;
+	border: 3px ridge grey;
+	margin-top: -1%;
+	margin-left: 1%;
+	transition: padding 1s;
+}
+button:hover{
+	padding: 0% 2%;
+	box-shadow: 1px 1px 5px 9px white;
+}
