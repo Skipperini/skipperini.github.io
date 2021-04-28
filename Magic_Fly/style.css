@@ -1,0 +1,27 @@
+@keyframes posit { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+body{
+	background: url(https://oir.mobi/uploads/posts/2021-03/1616610153_47-p-sinii-fon-kosmos-53.jpg);
+	background-size: 100%;
+}
+video{
+	width:100%;
+	height:100%;
+}
+audio{
+	width: 70%;
+	margin: 0% 16%;
+}
+.vid {
+	background: linear-gradient(to left, rgba(0, 0, 0,0.4), rgba(0, 0, 200, 0.4));
+    animation: posit 5s ease infinite;
+	background-size: 200%;
+	margin: auto;
+	padding:1.5%;
+	margin-top: 10%;
+	width:50%;
+	height: 50%;
+}
