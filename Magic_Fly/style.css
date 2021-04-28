@@ -17,7 +17,7 @@ audio{
 	margin: 0% 16%;
 }
 .vid {
-	background: linear-gradient(to left, rgba(0, 0, 0,0.4), rgba(0, 0, 200, 0.4));
+	background: linear-gradient(to right, rgba(0, 0, 0,0.4), rgba(0, 0, 200, 0.4));
     animation: posit 5s ease infinite;
 	background-size: 200%;
 	margin: auto;
