@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 .navtext{
-	padding:1%;
-	font-size: 200%;
+	color: black !important;
+	font-size: 170%;
 	background-color:#CA3A27;
 	font-family: 'Knewave';
 }
