@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+.navtext{
+	padding:1%;
+	font-size: 200%;
+	background-color:#CA3A27;
+	font-family: 'Knewave';
+}
+.poster{
+	margin-top: 2%;
+}
+.txtch{
+	text-indent: 4% !important;
+}
+.cent{
+	text-align: center !important;
+}
+.blocks2{
+	margin-top: 5% !important;
+}
+.black{
+	margin-top: 1% !important;
+	background-color: black ;
+}
+.vid{
+	background-color: black ;
+	margin: 0% !important;
+	color: #CA3A27;
+	font-size: 400%;
+	text-align:center;
+	font-family: 'Knewave';
+}
+.cardbuttn{
+	background-color:#CA3A27 !important; 
+}
+.txt{
+	text-align: justify;
+	font-family: 'Knewave';
+	font-size: 170%;
+	color:#CA3A27;
+	margin-right: 1% !important;
+	padding-bottom:2%;
+}
+.postern{
+	background-color: black;
+	padding-bottom:2%;
+}
+.buttonplayl{
+	width: 50%;
+	background-color: #CA3A27;
+	color: black;
+	text-align: center;
+	font-size: 220%;
+}
+.fcard{
+	margin-top: 10% !important;
+	
+}
+
