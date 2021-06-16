@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body{ background-image: url(https://kartinkinaden.ru/uploads/posts/2021-03/1616045377_4-p-krasivii-serii-fon-dlya-prezentatsii-4.jpg);}
+.navpanel{background-color:#000000b0;}
+.txt{
+    color: rgb(255, 255, 255);
+    font-family: 'Pangolin';
+    font-size: 280%;
+}
+li{margin: 0% 5%;}
+.lilogo{margin: 0%!important;}
+.wallp{
+    background-color: #000000b0; margin-top: 2%; padding: 1%;
+ }
+.txtmain{
+    font-size: 200%;
+    text-indent: 5%;
+    text-align: justify;
+    text-shadow: -1px -1px 1px silver;
+}
+.margrows{margin: 2% 1% 0% 1%;}
+.navg{width: 35%;}
+.imgmain{
+    border: 5px ridge rgba(196, 156, 212, 0.692);
+    box-shadow: 0px 0px 10px 5px rgba(165, 140, 140, 0.781);
+}
+.navbtn:hover{text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.904);}
