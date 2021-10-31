@@ -11,13 +11,13 @@ input{
     width:calc(40% + 3vw)
 }
 .ball{
-   width: 350px;
+   width: calc(150px + 16vw);
     margin-top:4%;
-    height: 350px;
+    height: calc(150px + 16vw);
     text-align: center;
     background:radial-gradient(#8A0808, #2A0A0A);
     border-radius: 50%;
-    box-shadow: 0px 1px 14px 13px #DF0101;
+    box-shadow: 0px 1px 13px 12px #DF0101;
     position: relative;
     cursor:pointer;
     font-size: calc(15% + 3vw);
