@@ -1,8 +1,28 @@
 html, body{
     height: 100%;
 }
-.valign{
-    vertical-align: middle;
+.cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    font-size:calc(10px + 1vw);
+}
+.ball{
+    width: calc(300px + 5vw);
+    margin-top:3%;
+    height: calc(300px + 5vw);
+    text-align: center;
+    background:radial-gradient(#8A0808, #2A0A0A);
+    border-radius: 50%;
+    box-shadow: 0px 1px 14px 15px #DF0101;
+    position: relative;
+    cursor:pointer;
+    font-size: calc(15% + 3vw);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 body{background-color:black; color:#c09669;font-size: calc(150% + 2vw);}
 @keyframes shake{
