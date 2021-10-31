@@ -10,9 +10,9 @@ input{
     font-size:calc(10px + 1vw);
 }
 .ball{
-    width: calc(300px + 5vw);
+    width: 380px;
     margin-top:3%;
-    height: calc(300px + 5vw);
+    height: 380px;
     text-align: center;
     background:radial-gradient(#8A0808, #2A0A0A);
     border-radius: 50%;
