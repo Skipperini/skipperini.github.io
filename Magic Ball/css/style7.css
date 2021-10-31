@@ -11,9 +11,9 @@ input{
     width:calc(40% + 3vw)
 }
 .ball{
-    width: calc(100px + 16vw);
+   width: calc(150px + 16vw);
     margin-top:4%;
-    height: calc(100px + 16vw);
+    height: calc(150px + 16vw);
     text-align: center;
     background:radial-gradient(#8A0808, #2A0A0A);
     border-radius: 50%;
