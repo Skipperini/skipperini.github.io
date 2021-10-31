@@ -3,6 +3,7 @@ var cont = document.createElement('div');
 var inputq = document.createElement('input');
 var divball = document.createElement('div');
 var divansver = document.createElement('span');
+divtxt.style.textAlign='center';
 inputq.style.marginTop='2%';
 divtxt.innerHTML = '<span>Input or imagine your question<span>';
 cont.className="cont";
