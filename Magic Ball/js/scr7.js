@@ -16,10 +16,10 @@ divball.classList.add('ball');
 var answers = ['Maybe.', 'Never!', 'NO.', 'The future is bleak.','Possibly.', 'Yes!','Spirits say yes',];
 divball.onclick = function () {
     if(inputq.value === ''){
-        alert("Input question!");
+        divansver.innerHTML='Input question!';
     }
     else{
-    divball.classList.add('clshake');;
+    divball.classList.add('clshake');
     var answer = answers[Math.floor(Math.random() * answers.length)];
     divansver.className="blinkcl";
     divansver.innerHTML = answer;
