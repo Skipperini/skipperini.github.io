@@ -34,8 +34,8 @@ html, body{
     margin: 8%;
 }
 .pics{
-    height: calc(80px + 15vw);
-    width: calc(200px + 15vw);
+    height: calc(10px + 17vw);
+    width: calc(100px + 18vw);
     background-size: 100%;
 }
 .userpic{
