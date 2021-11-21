@@ -32,10 +32,10 @@ html, body{
     color: rgb(17, 0, 0);
     border: 5px solid black;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 .pics{
-   height: calc(90px + 18vw);
+   height: calc(90px + 19vw);
     width: calc(15px + 15vw);
     background-size: cover;
 }
