@@ -31,11 +31,10 @@ html, body{
     background-color: rgb(199, 139, 27);
     color: rgb(17, 0, 0);
     border: 5px solid black;
-    margin: 3%;
 }
 .pics{
     height: calc(100px + 20vw);
-    width: calc(10px + 17vw);
+    width: calc(19px + 17vw);
     background-size: cover;
 }
 .point{
