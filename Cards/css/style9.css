@@ -27,7 +27,7 @@ html, body{
     font-style: italic;
     width: auto;
     text-align: center;
-    font-size: calc(10px + 3vw);
+    font-size: calc(8px + 3vw);
     background-color: rgb(199, 139, 27);
     color: rgb(17, 0, 0);
     border: 5px solid black;
@@ -35,23 +35,23 @@ html, body{
 }
 .pics{
     height: calc(100px + 19vw);
-    width: calc(10px + 16vw);
+    width: calc(10px + 17vw);
     background-size: cover;
 }
 .point{
-    font-size: calc(10px + 3vw);
+    font-size: calc(8px + 3vw);
     color:white;
 }
 .nums{
-    font-size: calc(10px + 5vw);
+    font-size: calc(8px + 5vw);
     color:white;
 }
 .name{
     color:white;
-    font-size: calc(10px + 3vw);
+    font-size: calc(8px + 3vw);
 }
 .txt{
     color:rgb(0, 2, 3);
     font-weight: bold;
-    font-size: calc(10px + 4vw);
+    font-size: calc(8px + 4vw);
 }
