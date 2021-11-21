@@ -27,7 +27,7 @@ html, body{
     font-style: italic;
     width: auto;
     text-align: center;
-    font-size: calc(8px + 3vw);
+    font-size: calc(14px + 2vw);
     background-color: rgb(199, 139, 27);
     color: rgb(17, 0, 0);
     border: 5px solid black;
