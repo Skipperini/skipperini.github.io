@@ -33,7 +33,7 @@ html, body{
     border: 5px solid black;
 }
 .pics{
-   height: calc(110px + 19vw);
+   height: calc(120px + 20vw);
     width: calc(20px + 18vw);
     background-size: cover;
 }
