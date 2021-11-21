@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    background-color: burlywood;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 85%;
+    justify-content: center;
+}
+.cont2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2% 5%;
+    justify-content: center;  
+}
+.uscont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(71, 114, 131, 20%);
+}
+.buttonD{
+    height: auto;
+    font-style: italic;
+    width: auto;
+    text-align: center;
+    font-size: calc(10px + 3vw);
+    background-color: rgb(199, 139, 27);
+    color: rgb(17, 0, 0);
+    border: 5px solid black;
+    margin: 8%;
+}
+.pics{
+    height: calc(100px + 19vw);
+    width: calc(10px + 16vw);
+    background-size: cover;
+}
+.point{
+    font-size: calc(10px + 3vw);
+    color:white;
+}
+.nums{
+    font-size: calc(10px + 5vw);
+    color:white;
+}
+.name{
+    color:white;
+    font-size: calc(10px + 3vw);
+}
+.txt{
+    color:rgb(0, 2, 3);
+    font-weight: bold;
+    font-size: calc(10px + 4vw);
+}
