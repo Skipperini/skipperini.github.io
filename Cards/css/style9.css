@@ -34,7 +34,7 @@ html, body{
 }
 .pics{
    height: calc(120px + 20vw);
-    width: calc(20px + 18vw);
+    width: calc(20px + 17vw);
     background-size: cover;
 }
 .point{
