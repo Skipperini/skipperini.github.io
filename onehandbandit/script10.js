@@ -55,13 +55,13 @@ btn.onclick = function(){
         tern[i].style.transform = 'rotateX(' + rot + 'deg)';
         rot+=1800;
     }
-    if(num1==1 && num2==1 && num3==0){
+    if(num1==0 && num2==0 && num3==0){
        score+=50;
     }
     if(num1==1 && num2==1 && num3==1){
         score+=150;
      }
-     if(num1==1 && num2==1 && num3==2){
+     if(num1==2 && num2==2 && num3==2){
         score+=250;
      }
      if(num1==3 && num2==3 && num3==3){
