@@ -29,7 +29,7 @@ image[3]="pomidor.png";
 btn.onclick = function(){
     score-=100;
     scores.innerHTML=`Scores: ${score}`;
-    if(score<50){
+    if(score<0){
        alert("You lose!!");
     }
     else{
