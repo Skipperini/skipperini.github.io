@@ -4,7 +4,7 @@ html, body{
 }
 nav{
     font-size: calc(3px + 2vw) ;
-    background-color: burlywood;
+   background-color: rgb(226, 178, 114);
 }
 a:hover{
     font-size: calc(4px + 2vw);
