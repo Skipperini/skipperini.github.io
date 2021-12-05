@@ -39,7 +39,7 @@ a:hover{
     background-color: rgb(199, 139, 27);
     color: rgb(17, 0, 0);
     border: 5px solid black;
-    margin: 4%;
+    margin: 5% 3%;
 }
 .pics{
     height: calc(10px + 17vw);
