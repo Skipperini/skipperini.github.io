@@ -15,6 +15,7 @@ a:hover{
     align-items: center;
     flex-direction: row;
     justify-content: center;
+     height: 80%;
 }
 .cont2{
     display: flex;
