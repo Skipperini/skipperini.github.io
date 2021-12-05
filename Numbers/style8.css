@@ -14,7 +14,6 @@ a:hover{
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 85%;
     justify-content: center;
 }
 .cont2{
@@ -39,7 +38,7 @@ a:hover{
     background-color: rgb(199, 139, 27);
     color: rgb(17, 0, 0);
     border: 5px solid black;
-    margin: 5% 3%;
+    margin: 3% 5%;
 }
 .pics{
     height: calc(10px + 17vw);
@@ -67,5 +66,5 @@ a:hover{
 .txt{
     color:rgb(236, 75, 11);
     font-weight: bold;
-    font-size: calc(10px + 4vw);
+    font-size: calc(10px + 3vw);
 }
