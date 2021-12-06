@@ -45,7 +45,7 @@ a:hover{
 .pics{
    height: calc(90px + 19vw);
     width: calc(15px + 15vw);
-    background-size: cover;
+    background-size: 100%;
 }
 .point{
     font-size: calc(8px + 3vw);
