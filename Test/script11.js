@@ -22,7 +22,7 @@ function neWord(){
   count++;
   $("#countW").text(`${count}/10`);}
   else{
-    $("button").unbind();
+    $("#words").unbind();
     if(pointR<=3){
       alert("Very bad!")
     }
