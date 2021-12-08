@@ -48,5 +48,5 @@ function check1(){
     input.val('');
    neWord();
 }
-$("button").bind('click', check1);
+$("words").bind('click', check1);
 
