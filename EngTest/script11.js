@@ -38,6 +38,7 @@ function butnC() {
   }
 }
 function start(wordsE, wordsU){
+ pointR=0; pointNR=0; count=0;
 $("button").unbind();
 function neWord(){
   if(count < 10){
@@ -50,6 +51,7 @@ function neWord(){
 }}
 function result(){
   $("#words").unbind();
+  pointR=0; pointNR=0; count=0;
     if(pointR<=3){
       alert("Very bad!")
     }
@@ -59,7 +61,8 @@ function result(){
     if(7<pointR && pointR<=10){
     alert("Excellent");
     }
-    pointR=0; pointNR=0; count=0;
+    window.location.reload();
+    
 }
 neWord();
 function check1(){
