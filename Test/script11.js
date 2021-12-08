@@ -22,7 +22,10 @@ function neWord(){
   count++;
   $("#countW").text(`${count}/10`);}
   else{
-    $("#words").unbind();
+    result();
+}}
+function result(){
+  $("#words").unbind();
     if(pointR<=3){
       alert("Very bad!")
     }
@@ -32,7 +35,7 @@ function neWord(){
     if(7<pointR && pointR<=10){
     alert("Excellent");
     }
-}}
+}
 neWord();
 function check1(){
   if(input.val()==wordUkr[eng]){
@@ -48,5 +51,14 @@ function check1(){
     input.val('');
    neWord();
 }
+$('input').keydown(function(e) {
+  
+  if(e.keyCode === 13) {
+    if(count < 10){
+    check1();}
+    else{
+      result();
+    }
+  }
+});
 $("#words").bind('click', check1);
-
