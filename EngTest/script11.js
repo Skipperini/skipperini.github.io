@@ -66,7 +66,8 @@ function result(){
 }
 neWord();
 function check1(){
-  if(input.val()==wordsU[eng]){
+  var input1=input.val().toLowerCase();
+  if(input1==wordsU[eng]){
     pointR++;
     $("#countR").text(` Right: ${pointR}`);
    }
