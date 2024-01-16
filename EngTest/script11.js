@@ -52,14 +52,14 @@ function neWord(){
 function result(){
   $("#words").unbind();
   pointR=0; pointNR=0; count=0;
-    if(pointR<=3){
-      alert("Very bad!")
+    if(7<pointR && pointR<=10){
+    alert("Excellent");
     }
     if(3<pointR && pointR<=7){
      alert("Not bad")
     }
-    if(7<pointR && pointR<=10){
-    alert("Excellent");
+      if(pointR<=3){
+      alert("Very bad!")
     }
     window.location.reload();
     
